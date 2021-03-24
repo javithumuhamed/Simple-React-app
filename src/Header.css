@@ -1,0 +1,54 @@
+*{    margin:0;
+}
+.Header{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(11, 2, 20);
+    border-bottom: 1px solid rgb(32, 30, 30);}
+.Header_left{
+    display: flex;
+    color: white;
+}
+.Header_left> .MenuIcon{
+    color: white;
+}
+.Header_mid{
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    background-color:rgba(45,43,61,255);
+    display: inline-flex;
+    flex: 1 1 300px;
+    position: relative;
+    border: 1px solid rgba(20, 18, 46, 0.774);
+    overflow: hidden;
+}
+.inputs{
+border: none;
+padding: 10px;
+width: 100%;
+height: 70%;
+font-size: medium;
+background-color: transparent;
+}
+.inputs :focus{
+    border: none;
+}
+
+.Header_mid > .search_icon{
+    color:white;
+}
+.Header_right{
+
+ 
+
+}
+.avathar{
+    height: 50px;
+    width: 55px;
+    border-radius: 65px;
+    margin: 10px;
+}
