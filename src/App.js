@@ -77,10 +77,12 @@ return (
         <ButtonSection/>
 
           <Lists/>
-  
-      <div className={`${isMobile ? "Mob-button" : "Button"}`}>  <ButtonSection/></div>
+
+          <div className={`${isMobile ? "Mob-button-d" : "Button-d"}`}>  <ButtonSection/></div>
+
       </div>
   </div>
+
 
 </div>
       

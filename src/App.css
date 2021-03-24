@@ -50,8 +50,8 @@ border-radius: 15px;
 overflow: hidden;
 z-index: 5;
 }
-.Container{
- 
+.Button-d{
+    display: none;
 }
 .total{
     margin: 9px;
