@@ -9,11 +9,11 @@ import Runner from './Runner'
 import Sidebar from './Sidebar'
 function App() {
 
-const [isMobile, setIsMobile] = useState(window.innerWidth < 1200);
+const [isMobile, setIsMobile] = useState(window.innerWidth < 600);
 
 useEffect(() => {
     window.addEventListener("resize", () => {
-        const ismobile = window.innerWidth < 1200;
+        const ismobile = window.innerWidth < 600;
         if (ismobile !== isMobile) setIsMobile(ismobile);
     }, false);
 }, [isMobile]);
