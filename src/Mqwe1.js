@@ -1,5 +1,4 @@
 import React from 'react'
-import './Mqwe1.css'
 function Mqwe1(props) {
     return (
         <tr className='Container'>

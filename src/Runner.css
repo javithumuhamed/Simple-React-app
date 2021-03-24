@@ -52,8 +52,7 @@
 
 .MFtable td{
 	display: flex;
-	align-items: left;
-	justify-content: space-between;
+	justify-content:space-between;
 
 }
 .MFtable td::before{
